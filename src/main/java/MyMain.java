@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class MyMain {
 
     // Changes a capital letter to a lowercase letter
-    // If the char is not an uppercase letter, 
-    // it is returned unchanged. 
     public static char toLower(char ch) {
         if (ch >= 32 && ch <= '@' || ch >= 'a' && ch <= 'z' || ch >= 91 && ch <= 96){
             return ch; 
